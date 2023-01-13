@@ -1,5 +1,7 @@
 # Yeterlik Çalışma Notları
 
+Bu depo doktora yeterlik sınavıma hazırlık için oluşturduğum notları içermektedir. Notların yazdırmaya hazır kopyaları [imlab.io](https://imlab.io/YeterlikHazirlikNotlari/) üzerinde yayınlanmaktadır. 
+
 ## Ders Notları
 
 1. [Mühendislik Matematiği](/notes/EngineeringMathematics.md)
