@@ -1,0 +1,54 @@
+name: Export Notes as HTML
+on: push
+
+jobs:
+  build_webpage:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      # create output folder and put resources into it
+      - name: create output
+        run: |
+          mkdir -p output
+          cp -r notes/notes output/
+          cp notes/github-pandoc.css output/github-pandoc.css
+      - uses: docker://pandoc/core:2.9
+        with:
+          args: >-
+            --standalone
+            --mathjax
+            --css=github-pandoc.css
+            --shift-heading-level-by=1
+            --metadata title="Yeterlik Çalışma Notları"
+            --resource-path=notes
+            --output=output/index.html
+            -s notes/EngineeringMathematics.md notes/NumericalMethods.md notes/ProbabilityAndRandomProcess.md notes/SignalsAndSystems.md notes/DigitalSignalProcessing.md notes/StatisticalSignalProcessing.md notes/ImageProcessing.md notes/Optimization.md notes/ArtificialNeuralNetworks.md notes/PatternRecognition.md notes/Summary.md notes/Questions.md
+      
+      # make tar of the output folder and upload it as artifact
+      - run: |
+          ls -lah output
+          tar --dereference --hard-dereference -C output -cvf artifact.tar .
+      - uses: actions/upload-artifact@main
+        with:
+          name: github-pages
+          path: artifact.tar
+          retention-days: 1
+
+  deploy_webpage:
+    runs-on: ubuntu-latest
+    needs: build_webpage
+
+    permissions:
+      pages: write 
+      id-token: write
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
