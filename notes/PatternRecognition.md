@@ -392,7 +392,11 @@ $$
 \mathbf{w}_{k+1} = \mathbf{w}_{k} - \eta \nabla f(\mathbf{w}) = \mathbf{w}_{k} + \eta \sum_{\mathbf{x}_i \in M} \mathbf{x}_{i}
 $$
 
-**DİKKAT:** Bu yöntem veri doğrusal ayrıştırılabilir olmadığı durumda yakınsamamaktadır.
+<blockquote>
+
+[](#red) **DİKKAT:** Bu yöntem veri doğrusal ayrıştırılabilir olmadığı durumda yakınsamamaktadır.
+
+</blockquote>
 
 #### En Küçük Karesel Hata ile Öğrenme
 
@@ -416,8 +420,11 @@ $$
 
 **Ho-Kashyap Çözümü:** Bu yaklaşım $\mathbf{w}$ değişkenine ek olarak $\mathbf{b}$ için de gradyan iniş yöntemi kullanmayı önerir. Diğer iki yöntemde $\mathbf{b}$ rastgele bir pozitif vektör seçildiğinden bu yaklaşım uzun sürede çalışmakta ancak daha iyi sonuçlar üretmektedir.
 
+<blockquote>
 
-**DİKKAT:** Bu yöntem büyük hatalara daha çok ceza yüklediğinden, aykırı değerlere daha duyarlı olmakta ve sonucu aykırı değere doğru yaklaştırmaktadır. 
+[](#green) **DİKKAT:** Bu yöntem büyük hatalara daha çok ceza yüklediğinden, aykırı değerlere daha duyarlı olmakta ve sonucu aykırı değere doğru yaklaştırmaktadır. 
+
+</blockquote>
 
 ## Yapay Sinir Ağları
 
@@ -449,5 +456,9 @@ $$
 \end{aligned}
 $$
 
-**NOT:** KKT koşulları gereği $\alpha_i \left( z_i (\mathbf{w}^{\intercal}\mathbf{x}_i + \mathbf{w}_0) - 1 \right)=0$ olması gerektiğinden, elde edilen $\alpha_i$ çözümlerinde; $\mathbf{x}_i$ destek vektörü değilse $\alpha_i=0$, destek vektörü ise $\alpha_i > 0$ olacaktır.
+<blockquote>
+
+[](#green) **NOT:** KKT koşulları gereği $\alpha_i \left( z_i (\mathbf{w}^{\intercal}\mathbf{x}_i + \mathbf{w}_0) - 1 \right)=0$ olması gerektiğinden, elde edilen $\alpha_i$ çözümlerinde; $\mathbf{x}_i$ destek vektörü değilse $\alpha_i=0$, destek vektörü ise $\alpha_i > 0$ olacaktır.
+
+</blockquote>
 

@@ -397,7 +397,11 @@ Görüldüğü üzere Fourier dönüşümü $s=jw$ için Laplace dönüşümün�
 
 Yukarıda yazılan ifade $s=\sigma + jw$ yazılması durumunda farklı şekilde de okunabilir. Laplace dönüşümü $x(t)e^{-\sigma t}$ sinyalinin Fourier dönüşümü olarak da görülebilir. Burada $\sigma=0$ seçilmesi durumunda $x(t)$ olduğu gibi kullanılırken, $\sigma > 0$ zamanla azalan bir sinyal veya $\sigma < 0$ zamanla artan bir sinyal ile pencerelenerek de kullanılabilir.
 
-**Dikkat:** Dirichlet koşullarından bilindiği üzere dönüşüm işleminin geçerli olabilmesi için girdi sinyalinin ortalama gücünün sabit olması gereklidir. Yukarıdan görüldüğü üzere sinyal exponansiyel bir sinyal ile çarpıldığından bu durum geçerli olmayabilir. Bu nedenle Laplace dönüşümlerinde dönüşümün geçerli olduğu ROC (Region of Convergence) bölgesi de verilmelidir.
+<blockquote>
+
+[](#green) **Dikkat:** Dirichlet koşullarından bilindiği üzere dönüşüm işleminin geçerli olabilmesi için girdi sinyalinin ortalama gücünün sabit olması gereklidir. Yukarıdan görüldüğü üzere sinyal exponansiyel bir sinyal ile çarpıldığından bu durum geçerli olmayabilir. Bu nedenle Laplace dönüşümlerinde dönüşümün geçerli olduğu ROC (Region of Convergence) bölgesi de verilmelidir.
+
+</blockquote>
 
 <blockquote>
 

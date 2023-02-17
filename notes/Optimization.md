@@ -29,7 +29,11 @@ $f(\mathbf{x}^{\ast}) \leq f(\mathbf{x}), \exists r > 0 \text{ s.t } \forall \ma
 
 $\mathbf{x}^{\ast}$ değeri bir $f$ fonksiyonunun yerel ekstremum noktasıysa ve tanım kümesinin **içinde** yer alıyorsa, $\nabla f(\mathbf{x}^{\ast}) = 0$ olmalıdır. $\nabla f(\mathbf{x}^{\ast}) = 0$ şartını sağlayan vektör kümesine **durağan nokta** adı verilir. 
 
-**NOT: Her durağan nokta bir yerel ekstremum nokta olmak zorunda değildir!**
+<blockquote>
+
+[](#red) **NOT: Her durağan nokta bir yerel ekstremum nokta olmak zorunda değildir!**
+
+</blockquote>
 
 ## Doğrusal ve Kuadratik Yaklaşım
 
@@ -52,16 +56,19 @@ Doğrusal ve kuadratik yaklaşım eşitlikleri kullanılarak ekstremum noktalar 
 1. Doğrusal yaklaşım ile $\mathbf{x}^{\ast}$ noktasındaki değeri kullanarak $\mathbf{x}^{\ast} + \Delta \mathbf{x}$ noktasındaki değeri hesaplamak istersek; $f(\mathbf{x}^{\ast} + \Delta \mathbf{x}) \approx f(\mathbf{x}^{\ast}) + \nabla f(\mathbf{x}^{\ast})^{\intercal} \Delta \mathbf{x}$ yazılır. Bu ifadede $f$ terimleri sol tarafa alınarak ifade düzenlenirse; $f(\mathbf{x}^{\ast} + \Delta \mathbf{x}) - f(\mathbf{x}^{\ast}) \approx \nabla f(\mathbf{x}^{\ast})^{\intercal} \Delta \mathbf{x}$ elde edilir.
  Burada $\mathbf{x}^{\ast}$ en küçük nokta olduğundan $f(\mathbf{x}^{\ast} + \Delta \mathbf{x}) - f(\mathbf{x}^{\ast}) \geq 0$ olacaktır. 
  
- > Bu sonuç $\boxed{\nabla f(\mathbf{x}^{\ast})^{\intercal} \Delta \mathbf{x} \geq 0}$ anlamına gelmektedir.
+ > [](#green) Bu sonuç $\boxed{\nabla f(\mathbf{x}^{\ast})^{\intercal} \Delta \mathbf{x} \geq 0}$ anlamına gelmektedir.
 
 2. Aynı işlemler $\nabla f(\mathbf{x}^{\ast}) = 0$ şartını sağlayan **iç noktalar** için kuadratik yaklaşım kullanılarak yapıldığında; $f(\mathbf{x}^{\ast} + \Delta \mathbf{x}) - f(\mathbf{x}^{\ast}) \approx \frac{1}{2} \Delta \mathbf{x}^{\intercal} \nabla^2 f(\mathbf{x}^{\ast})^{\intercal} \Delta \mathbf{x}$ elde edilir. Buradan da aşağıdaki çıkarım yapılır.
 
-> Herhangi bir $\Delta \mathbf{x}$ vektörü için ifadenin sıfırdan büyük olabilmesi için $\boxed{\nabla^2 f(\mathbf{x}^{\ast}) \geq 0}$ pozitif yarı tanımlı olmalıdır.
+> [](#green) Herhangi bir $\Delta \mathbf{x}$ vektörü için ifadenin sıfırdan büyük olabilmesi için $\boxed{\nabla^2 f(\mathbf{x}^{\ast}) \geq 0}$ pozitif yarı tanımlı olmalıdır.
 
 **NOT:** Aynı işlemler $\mathbf{x}^{\ast}$ noktasının $f$ fonksiyonunun **en büyük** noktası olduğu kabul edilerek yapıldığı takdirde; $\boxed{\nabla f(\mathbf{x}^{\ast})^{\intercal} \Delta \mathbf{x} \leq 0}$ ve $\nabla^2 f(\mathbf{x}^{\ast}) \leq 0$ negatif yarı tanımlı olmalı sonucuna varılacaktır.
 
+<blockquote>
 
-**DİKKAT!!:** Bir noktanın yerel ekstremum nokta olabilmesi için $\nabla^2 f(\mathbf{x}^{\ast})$ pozitif veya negatif yarı tanımlı olması gereklidir. $f(\mathbf{x}^{\ast}) = 0$ şartını sağlayan ve belirsiz Hessian matrisine sahip noktalara **eğer noktası** denir.
+[](#blue) **DİKKAT!!:** Bir noktanın yerel ekstremum nokta olabilmesi için $\nabla^2 f(\mathbf{x}^{\ast})$ pozitif veya negatif yarı tanımlı olması gereklidir. $f(\mathbf{x}^{\ast}) = 0$ şartını sağlayan ve belirsiz Hessian matrisine sahip noktalara **eğer noktası** denir.
+
+</blockquote>
 
 <blockquote>
 

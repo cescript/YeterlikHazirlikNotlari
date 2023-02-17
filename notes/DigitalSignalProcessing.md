@@ -41,7 +41,11 @@ Bu gösterim ile sinyalin frekans davranışı incelendiğinde, örneklenen siny
 
 **Nyquist-Shannon Örnekleme Teoremi:** Maksimum frekansı $w_m$ olan bir sinyalin bant genişliği $2w_m$ olacaktır. Örnekleme sonrası sinyalin girişim yaşamaması için **örnekleme frekansı $w_s > 2w_m$ seçilmelidir**. Bu durumda orjinal sinyal örneklerinden mükemmel şekilde geri çatılabilecektir.
 
-**DİKKAT:** $w_s \geq 2w_m$ olması durumunda sinyal her zaman mükemmel olarak geri çatılamayabilir. $x(t) = \sin(\frac{w_s}{2}t)$ gibi bir sinyalde, örnekleme $1w_s,2w_s,3w_s, \dots$ gibi $w_s$'in tam katlarında yapıldığında $x_s(t) = 0$ olacaktır. Bu sinyalde geri çatıldığında $x_r(t)=0$ elde edilecektir.
+<blockquote>
+
+[](#green) **DİKKAT:** $w_s \geq 2w_m$ olması durumunda sinyal her zaman mükemmel olarak geri çatılamayabilir. $x(t) = \sin(\frac{w_s}{2}t)$ gibi bir sinyalde, örnekleme $1w_s,2w_s,3w_s, \dots$ gibi $w_s$'in tam katlarında yapıldığında $x_s(t) = 0$ olacaktır. Bu sinyalde geri çatıldığında $x_r(t)=0$ elde edilecektir.
+
+</blockquote>
 
 <blockquote>
 

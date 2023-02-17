@@ -118,12 +118,14 @@ Benzer şekilde $\mathbf{x}^{\intercal} \mathbf{A} \mathbf{x} < 0$ ise matrise *
 
 $\mathbf{x}^{\intercal} \mathbf{A} \mathbf{x}$ ifadesinin pozitif ve negatif bileşenlerden oluşması durumunda ise matrise **belirsiz** denir.
 
-**DİKKAT:** Bir matrisin $i$'ninci köşegen elemanı $\mathbf{e}_i$ birim vektörler kullanılarak $\mathbf{e}_i^{\intercal} \mathbf{A} \mathbf{e}_i$ ile seçilebildiğinden;
+<blockquote>
+
+[](#blue) **DİKKAT:** Bir matrisin $i$'ninci köşegen elemanı $\mathbf{e}_i$ birim vektörler kullanılarak $\mathbf{e}_i^{\intercal} \mathbf{A} \mathbf{e}_i$ ile seçilebildiğinden;
 
 - Pozitif tanımlı matrislerin tüm köşegen elemanları sıfırdan büyük,
 - Negatif tanımlı matrislerin tüm köşegen elemanları sıfırdan küçük olmalıdır.
 
-
+</blockquote>
 
 ### Özdeğer Karakterizasyon Teoremi
 

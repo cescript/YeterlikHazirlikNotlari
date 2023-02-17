@@ -555,7 +555,11 @@ $$x_{k+1} = x_k - f(x_k) / f'(x_k)$$
 
 şeklinde hesaplanır.
 
-Burada $g(x_k) = x_k - f(x_k) / f'(x_k)$ tanımlaması yapılırsa problem bir sabit nokta iterasyonu olarak görülebilir. Sabit Nokta İterasyonunda değinildiği üzere Newton yönteminin yakınsama testi için de $g'(x) < 1$ şartının sağlanması gereklidir.
+<blockquote>
+
+[](#green) Burada $g(x_k) = x_k - f(x_k) / f'(x_k)$ tanımlaması yapılırsa problem bir sabit nokta iterasyonu olarak görülebilir. Sabit Nokta İterasyonunda değinildiği üzere Newton yönteminin yakınsama testi için de $g'(x) < 1$ şartının sağlanması gereklidir.
+
+</blockquote>
 
 Problemde $\mathbf{x}$ vektör olması durumunda; $f(\mathbf{x}) = -J(\mathbf{x})\mathbf{h}$ doğrusal denklem seti çözülerek $\mathbf{h}$ vektörü bulunur.
 
