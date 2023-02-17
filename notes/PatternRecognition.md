@@ -55,7 +55,7 @@ Bir veri seti üzerinde hesaplanan ve verilen $P(A \lvert B)$ olasılıklarını
 
 <blockquote>
 
-**ÖRNEK:** $p= \lbrace 0.3,0.6 \rbrace$ bir paranın **tura** gelme olasılığını göstersin. Bu para $3$ kere atıldığında $2$ yazı, $1$ tura geldiğine göre $p$' nin **En Büyük Olabilirlikli (ML)** kararı bulunuz?
+[](#gray) $p= \lbrace 0.3,0.6 \rbrace$ bir paranın **tura** gelme olasılığını göstersin. Bu para $3$ kere atıldığında $2$ yazı, $1$ tura geldiğine göre $p$' nin **En Büyük Olabilirlikli (ML)** kararı bulunuz?
 
 Gözlemlenen olayın olasılığını $P(\text{2Y1T})$ her $p$ için hesaplayacak olursak; 
 
@@ -80,7 +80,7 @@ Burada paydada bulunan $P(A)$ ifadesi sabit bir ölçekleme katsayısı olarak g
 
 <blockquote>
 
-**ÖRNEK:** Yukarıda verilen problem için; paranın **tura** gelme olasılıklarının olasılığı hakkında $P(p = 0.3) = 0.3$ and $P(p = 0.6) = 0.7$ gibi bir öncül bilgi bulunması durumunda **En Büyük Artçıl (MAP)** kararını bulunuz?
+[](#gray) Yukarıda verilen problem için; paranın **tura** gelme olasılıklarının olasılığı hakkında $P(p = 0.3) = 0.3$ and $P(p = 0.6) = 0.7$ gibi bir öncül bilgi bulunması durumunda **En Büyük Artçıl (MAP)** kararını bulunuz?
 
 Bu kestirim için $P(p \lvert \text{2Y1T})$ olasılıklarının hesaplanması gereklidir. Bu olasılık Bayes kuralı kullanılarak aşağıdaki şekilde hesaplanır.
 
@@ -138,7 +138,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** $\theta$ değişkenine bağlı bir ölçüm sisteminde $\mathbf{x}_n = \theta + v(n)$ şeklinde ölçümler toplanmaktadır. Burada $\theta \in [0,1]$ düzgün dağılımlı bir rastgele değişkendir ve $v(n)$ gürültü sürecini göstermektedir. $v(n)$ gürültüsü $\theta$ değişkeninden bağımsız olarak aşağıdaki yoğunluk fonksiyonuna sahiptir.
+[](#gray) $\theta$ değişkenine bağlı bir ölçüm sisteminde $\mathbf{x}_n = \theta + v(n)$ şeklinde ölçümler toplanmaktadır. Burada $\theta \in [0,1]$ düzgün dağılımlı bir rastgele değişkendir ve $v(n)$ gürültü sürecini göstermektedir. $v(n)$ gürültüsü $\theta$ değişkeninden bağımsız olarak aşağıdaki yoğunluk fonksiyonuna sahiptir.
 
 $$
 f_v(v) = 
@@ -228,7 +228,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** $D= \lbrace 2,3,4,6 \rbrace$ şeklinde verilen bir kümede $3$ genişlikli Parzen penceresi kullanarak $f_x(\mathbf{x} = 5)$ değerini kestiriniz.
+[](#gray) $D= \lbrace 2,3,4,6 \rbrace$ şeklinde verilen bir kümede $3$ genişlikli Parzen penceresi kullanarak $f_x(\mathbf{x} = 5)$ değerini kestiriniz.
 
 Soruda örnekler bir boyutlu olduğundan $\text{Volume}(W) = 3$ olacaktır. Verilen kümede $x=5$ için $3$ genişlikli bir pencere seçilmesi durumunda $W= \lbrace 4,5,6 \rbrace$ olacaktır. Bu durumda $P(\mathbf{x} \in W) = P(\mathbf{x} \in  \lbrace 4,5,6 \rbrace ) = 2/4 = 0.5$ olarak hesaplanır.
 
@@ -246,7 +246,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** $D= \lbrace 2,3,4,6 \rbrace$ şeklinde verilen bir kümede $P(\mathbf{x} \in W) = 0.5$ olacak şekilde $f_x(\mathbf{x} = 5)$ değerini kestiriniz.
+[](#gray) $D= \lbrace 2,3,4,6 \rbrace$ şeklinde verilen bir kümede $P(\mathbf{x} \in W) = 0.5$ olacak şekilde $f_x(\mathbf{x} = 5)$ değerini kestiriniz.
 
 Öncelikle $x=5$ civarında $P(\mathbf{x} \in W) = 0.5$ şartını sağlayan pencere büyüklüğü bulunmalıdır. $w=1$ için $W= \lbrace 5 \rbrace , P(\mathbf{x} \in W) = 0$,  $w=2$ için $W= \lbrace 5 \rbrace , P(\mathbf{x} \in W) = 0$, $w=3$ için $W= \lbrace 4,5,6 \rbrace , P(\mathbf{x} \in W) = 0.5$ olduğundan $\text{Volume}(W) = 3$ olarak hesaplanır.
 
@@ -296,7 +296,7 @@ Yani **verinin kovaryans matrisinin özvektör ve özdeğerleri, $\mathbf{X}\in 
 
 <blockquote>
 
-**ÖRNEK:** İki boyutlu uzayda verilen $\mathbf{X} =  \lbrace (1,1), (2,2), (3,3) \rbrace$ noktalarının;
+[](#gray) İki boyutlu uzayda verilen $\mathbf{X} =  \lbrace (1,1), (2,2), (3,3) \rbrace$ noktalarının;
 
 - ilk temel bileşenini bulunuz
 - ilk temel bileşen yönündeki varyansı hesaplayınız

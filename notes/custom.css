@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+/* NORMALIZATIONS */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+/* resize elements to max-width */
+img, embed, object, video {
+    max-width: 100%; 
+}
+
+/* make box computations easy for humans */
+*, *:before, *:after {
+    box-sizing: border-box; 
+}
+
+/* print settings */
+@media print {
+
+    /* use the background colors in tables and blockquotes */
+    body {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    /* do not break the following elements */
+    blockquote table {
+      break-inside: avoid;
+    }
+}
+  
+body {
+    font-family: 'Lucida Bright', Georgia, serif; 
+    font-weight: 300;
+    color: #222;
+    line-height: 1.5em;
+    text-align: justify;
+    max-width: 120ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* HEADERS */
+h1 {
+    font-size: 2em;
+}
+
+h1, h2 {
+    margin: 0.7em 0;
+    color: #111;
+}
+
+/* IMAGE */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[alt*="half"] {
+    max-width: 45%;
+    max-height: 45%;
+}
+
+
+/* TABLE */
+table {
+    table-layout: fixed;
+    margin: 0 auto;
+    width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+table th, table td {
+    padding: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    vertical-align: center;
+    overflow: hidden
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+table td img {
+    display: block;
+    margin: 0 auto;    
+}
+
+/* LINKS */
+a {
+    color: #1e3f5f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0A59B0;
+    border-bottom: 0.5px solid #0A59B0;
+    box-shadow: 0 0 3px #0A59B0;
+}
+
+
+/* BLOCKQUOTES */
+blockquote {
+    display: block;
+    position: relative;
+    border: solid 2px;
+    overflow-wrap: break-word;
+    margin: 1ch;
+    padding: 1ch;
+}
+
+blockquote img {
+    display:block;
+    width: 90%;
+    margin: auto;
+}
+
+/* blockquotes which has gray, red, green and red items */
+blockquote a[href*="#gray"], a[href*="#red"], a[href*="#green"], a[href*="#blue"] {
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none;
+}
+
+/* gray, red, green and red */
+blockquote:has(a[href*="#gray"], a[href*="#red"], a[href*="#green"], a[href*="#blue"]) {
+    border: none;
+    border-radius: 1ch;
+}
+
+blockquote:has(a[href*="#gray"]) {
+    background-color: #ececec;
+    color: #5e5a5a;
+    border: 1px solid;
+}
+
+blockquote:has(a[href*="#red"]) {
+    background-color: #fae4ea;
+    color: #7e1932;
+}
+
+blockquote:has(a[href*="#green"]) {
+    background-color: #e1f5d9;
+    color: #32583a;
+}
+
+blockquote:has(a[href*="#blue"]) {
+    background-color: #D9EDF7;
+    color: #2a4455;
+}

@@ -18,7 +18,7 @@ Bu ders kapsamında temel bilgilerden başlanarak, otoregresif modeller ve Wiene
 
 <blockquote>
 
-**ÖRNEK:** Sıfır ortalamalı $\mathbf{x}$ ve $\mathbf{y}$ gibi iki vektör arasındaki ilişkiyi kaldıracak $\mathbf{H}$ dönüşüm matrisini bulunuz.
+[](#gray) Sıfır ortalamalı $\mathbf{x}$ ve $\mathbf{y}$ gibi iki vektör arasındaki ilişkiyi kaldıracak $\mathbf{H}$ dönüşüm matrisini bulunuz.
 
 En iyi dönüşüm marisi ile yapılan dönüşüm sonucunda kalan hata  vektörü $\mathbf{e} = \mathbf{x} - \mathbf{H} \mathbf{y}$ ile $\mathbf{y}$ birbirine dik $E[\mathbf{e} \mathbf{y}] = 0$ olmalıdır.
 
@@ -52,7 +52,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** Aşağıda verilen güç spektral yoğunluğunu spektral ayrıştırma teoremine göre ayrıştırınız.
+[](#gray) Aşağıda verilen güç spektral yoğunluğunu spektral ayrıştırma teoremine göre ayrıştırınız.
 
 $$
 S(e^{jw}) = \frac{1.04 + 0.4 \cos(w)}{1.25 + \cos(w)}
@@ -159,7 +159,7 @@ Burada $\mathbf{S}(s)$ güç spektral yoğunluk fonksiyonunu göstermektedir.
 
 <blockquote>
 
-**ÖRNEK:** $x[n] = y[n] + v[n]$ şeklinde tanımlanan bir sistemde işaret ve gürültünün ilişkisiz olduğu bilinmektedir. $y[n]$ işaretinin ölçümler kullanılarak kestirmek için ideal filtreyi bulunuz.
+[](#gray) $x[n] = y[n] + v[n]$ şeklinde tanımlanan bir sistemde işaret ve gürültünün ilişkisiz olduğu bilinmektedir. $y[n]$ işaretinin ölçümler kullanılarak kestirmek için ideal filtreyi bulunuz.
 
 $y[n]$ işaretinin ortalama karesel hatasını en küçükleyen kestirimi Wiener filtre ile bulunur. 
 

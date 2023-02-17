@@ -74,7 +74,7 @@ Yapılan her $k$ elemanlı küme kendi içerisinde $k!$ şekilde sıralanabilece
 
 <blockquote>
 
-**ÖRNEK:** $H= \lbrace a,b,c,d \rbrace$ ile verilen kümeden 2 eleman kaç farklı şekilde seçilir?
+[](#gray) $H= \lbrace a,b,c,d \rbrace$ ile verilen kümeden 2 eleman kaç farklı şekilde seçilir?
 
 Sorulan soru bir kombinasyon sorusu olduğundan cevap $C{n \choose k} = \frac{4!}{(4-2)! 2!} = 6$ şeklinde hesaplanır. 
 
@@ -102,7 +102,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** $p=0.1$ olasılıkla bozuk olarak üretilen ampüller $n=5$ parçadan oluşan bir kutuda satılmaktadır. Bu kutudaki ampüllerin çoğunun bozuk olma olasılığı nedir?
+[](#gray) $p=0.1$ olasılıkla bozuk olarak üretilen ampüller $n=5$ parçadan oluşan bir kutuda satılmaktadır. Bu kutudaki ampüllerin çoğunun bozuk olma olasılığı nedir?
 
 Kutuda $n=5$ parça bulunduğundan bozuk ampüllerin sayısının $k=3,4,5$ olması gerekmektedir.
 
@@ -140,7 +140,7 @@ Ancak **ayrık değişkenler için $f_{\mathbf{x}}(x)$ olasılık yoğunluk fonk
 
 <blockquote>
 
-**ÖRNEK:** Bir zar deneyinde rastgele değişken $\mathbf{x}(z) = 10z$ olarak tanımlanıyor. Buna göre olasılık yoğunluk ve dağılım fonksiyonlarını bulunuz.
+[](#gray) Bir zar deneyinde rastgele değişken $\mathbf{x}(z) = 10z$ olarak tanımlanıyor. Buna göre olasılık yoğunluk ve dağılım fonksiyonlarını bulunuz.
 
 Bu şekilde tanımlanan bir rastgele değişkenin farklı noktalardaki dağılım fonksiyonu değerini hesaplayalım.
 
@@ -160,7 +160,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** $P \lbrace  x_1 < \mathbf{x} \leq x_2  \rbrace$ şeklinde tanımlanan bir olasılığı dağılım ve yoğunluk fonksiyonları cinsinden ifade ediniz.
+[](#gray) $P \lbrace  x_1 < \mathbf{x} \leq x_2  \rbrace$ şeklinde tanımlanan bir olasılığı dağılım ve yoğunluk fonksiyonları cinsinden ifade ediniz.
 
 $F_{\mathbf{x}}(x) = P \lbrace  \mathbf{x} \leq w \rbrace$ şeklinde tanımlandığından; dağılım fonksiyonları $F_{\mathbf{x}}(x_1) = P \lbrace  \mathbf{x} \leq x_1 \rbrace$ ve $F_{\mathbf{x}}(x_2) = P \lbrace  \mathbf{x} \leq x_2 \rbrace$ şeklinde yazılır. Buradan da $P \lbrace  x_1 < \mathbf{x} \leq x_2  \rbrace  = F_{\mathbf{x}}(x_2) - F_{\mathbf{x}}(x_1)$ olarak bulunur.
 
@@ -218,7 +218,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** Bir kuru hücreli bataryanın ömrü $600$ gün ortalamalı ve $60$ gün standart sapmalı bir normal dağılım olarak veriliyor. Bu bataryalardan bir tanesinin $680$ günden uzun çalışma olasılığı kaçtır?
+[](#gray) Bir kuru hücreli bataryanın ömrü $600$ gün ortalamalı ve $60$ gün standart sapmalı bir normal dağılım olarak veriliyor. Bu bataryalardan bir tanesinin $680$ günden uzun çalışma olasılığı kaçtır?
 
 Bir rastgele değişkenin $680$ den fazla olma olasılığı $1-F_{\mathbf{x}}(680)$ şeklinde hesaplanır. Cihaz normal dağılımlı olduğundan; $F_{\mathbf{x}}(680)$ standartlaştırılmış dağılım tablosu $G$ kullanılarak aşağıdaki şekilde bulunur.
 
@@ -255,7 +255,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** Bir kişinin ortalama olarak 5dk telefonla konuştuğu bir kulübede, kulübe doluyken sıraya giren birinin 3 dakikadan fazla bekleme ihtimali nedir?
+[](#gray) Bir kişinin ortalama olarak 5dk telefonla konuştuğu bir kulübede, kulübe doluyken sıraya giren birinin 3 dakikadan fazla bekleme ihtimali nedir?
 
 Kulübede yapılan konuşmaların exponansiyel dağılımlı varsayılırsa, dağılımın beklenen değeri 5 dk olarak verildiğinden $\lambda=0.2$ bulunur. Bu durumda $P \lbrace  \mathbf{x} > 3 \rbrace$ olasılığı aşağıdaki şekilde hesaplanabilir.
 
@@ -287,7 +287,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** $n=1000$ parçadan oluşan bir sistemde, her bir parçanın bağımsız olarak arızalı olma olasılığı $p=10^{-3}$ olarak verilmiştir. Bu sistemin çalışma olasılığı nedir?
+[](#gray) $n=1000$ parçadan oluşan bir sistemde, her bir parçanın bağımsız olarak arızalı olma olasılığı $p=10^{-3}$ olarak verilmiştir. Bu sistemin çalışma olasılığı nedir?
 
 Problem bir binom dağılımı sorusudur. Sistemin çalışması için hatasız $k=0$ olması gerektiğinden, çalışma olasılığı aşağıdaki şekilde hesaplanır.
 
@@ -365,7 +365,7 @@ Burada $\lVert.\lVert$ ifadesi Jacobian matrisinin mutlak değerini göstermeket
 
 <blockquote>
 
-**ÖRNEK:** $f_x(\mathbf{x})$ ve $f_y(\mathbf{y})$ sırasıyla $\mathbf{x}$ ve $\mathbf{y}$ **bağımsız** rastgele değişkenlerine ait olasılık yoğunluk fonksiyonları olsun. Bu iki rastgele değişkenin toplamı ile elde edilen $\mathbf{z}$ rastgele değişkeninin olasılık yoğunluk fonksiyonunu bulunuz.
+[](#gray) $f_x(\mathbf{x})$ ve $f_y(\mathbf{y})$ sırasıyla $\mathbf{x}$ ve $\mathbf{y}$ **bağımsız** rastgele değişkenlerine ait olasılık yoğunluk fonksiyonları olsun. Bu iki rastgele değişkenin toplamı ile elde edilen $\mathbf{z}$ rastgele değişkeninin olasılık yoğunluk fonksiyonunu bulunuz.
 
 İlk olarak $F_z(\mathbf{z} < z)$ dağılım fonksiyonunu bulmaya çalışalım. $\mathbf{z} < z$ olabilmesi için $\mathbf{x} = x$ değerini aldığı durumda $\mathbf{y} < z-x$ değerini almalıdır. 
 
@@ -442,7 +442,7 @@ $\lvert C_{\mathbf{xy}} \lvert \leq \sigma_\mathbf{x} \sigma_\mathbf{y}$ olduğu
 
 <blockquote>
 
-**ÖRNEK:** Herhangi bir kovaryans matrisi  $\mathbf{C}_x$'in pozitif yarı-tanımlı olduğunu gösteriniz.
+[](#gray) Herhangi bir kovaryans matrisi  $\mathbf{C}_x$'in pozitif yarı-tanımlı olduğunu gösteriniz.
 
 Pozitif yarı-tanımlı tanımına göre de rastgele seçilen her $\mathbf{y}$ vektörü için $\mathbf{y}^\intercal \mathbf{C_x} \mathbf{y} \geq 0$ olmalıdır. Burada $\mathbf{C_x}$ tanımı ikinci denklemde yerine yazılırsa;
 
@@ -473,7 +473,7 @@ Korelasyon katsayısı iki rastgele değişken arasındaki doğrusal ilişkiyi g
 
 <blockquote>
 
-**ÖRNEK:** $\mathbf{x}$ ve $\mathbf{y}$ değişkenlerinin ortak olasılıklarını gösteren tablo aşağıda verilmiştir.
+[](#gray) $\mathbf{x}$ ve $\mathbf{y}$ değişkenlerinin ortak olasılıklarını gösteren tablo aşağıda verilmiştir.
 
 
 $$
@@ -581,7 +581,7 @@ Merkezi Limit teoremine göre bağımsız ve aynı dağılımdan gelen rastgele 
 
 <blockquote>
 
-**ÖRNEK:** Bir sınavın notları $75$ ortalama ve $20$ standart sapma ile dağılmıştır. Bu sınava katılan öğrencilerden rastgele $50$ tanesinin seçilmesi durumunda, örneklem ortalamasının $80$'den az olma olasılığını bulunuz.
+[](#gray) Bir sınavın notları $75$ ortalama ve $20$ standart sapma ile dağılmıştır. Bu sınava katılan öğrencilerden rastgele $50$ tanesinin seçilmesi durumunda, örneklem ortalamasının $80$'den az olma olasılığını bulunuz.
 
 Merkezi limit teoremine göre rastgele seçilen $50$ kişinin notları $\mathcal{N}(75, 20^2/50)$ ile Normal dağılımlı olacaktır. O zaman soru; $\mathcal{N}(75, 4)$ ile dağılan notların $80$'den küçük olma olasılığına dönüşür. 
 
@@ -620,7 +620,7 @@ Otokorelasyon ve otokovaryans bir rastgele sürecin iki farklı zamanındaki ver
 
 <blockquote>
 
-**ÖRNEK:** $\mathbf{X}(t) = \mathbf{a} + \mathbf{b}t$ şeklinde tanımlanan bir rastgele süreçte, $\mathbf{a}$ ve $\mathbf{b}$ bağımsız $N(1,1)$ normal dağılımlı rastgele değişkenlerdir. Bu rastgele değişkenin beklenen değerini, otokorelasyon ve otokovaryans matrislerini bulunuz.
+[](#gray) $\mathbf{X}(t) = \mathbf{a} + \mathbf{b}t$ şeklinde tanımlanan bir rastgele süreçte, $\mathbf{a}$ ve $\mathbf{b}$ bağımsız $N(1,1)$ normal dağılımlı rastgele değişkenlerdir. Bu rastgele değişkenin beklenen değerini, otokorelasyon ve otokovaryans matrislerini bulunuz.
 
 $\mathbf{X}(t)$ bir rastgele süreç olduğundan, beklenen değer ifadesi de bir süreç olacaktır.
 

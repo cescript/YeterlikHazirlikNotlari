@@ -65,7 +65,7 @@ Doğrusal ve kuadratik yaklaşım eşitlikleri kullanılarak ekstremum noktalar 
 
 <blockquote>
 
-**ÖRNEK:** $f: \mathbb{R}^2 \to \mathbb{R}$ uzayında tanımlı $f(x_1,x_2) = 2 x_1^3 + 3 x_2^2 + 3 x_1^2 x_2 - 24 x_2$ fonksiyonunun durağan noktalarını bularak sınıflandırınız.
+[](#gray) $f: \mathbb{R}^2 \to \mathbb{R}$ uzayında tanımlı $f(x_1,x_2) = 2 x_1^3 + 3 x_2^2 + 3 x_1^2 x_2 - 24 x_2$ fonksiyonunun durağan noktalarını bularak sınıflandırınız.
 
 Durağan noktalar $\nabla f(x_1,x_2) = 0$ şartını sağlayan noktalardır.
 $$
@@ -346,7 +346,7 @@ $\nabla L(\mathbf{x},\lambda) = 0$ şartını sağlayan $\mathbf{x}^\ast,\lambda
 
 <blockquote>
 
-**ÖRNEK:** Birinci ve ikinci derece optimumluk koşullarını kullanarak $\mathbf{x}^\ast = [ 2.5,\quad -1.5,\quad -1 ]^\intercal$ çözümünün aşağıdaki fonksiyonun en küçük noktası olduğunu gösteriniz.
+[](#gray) Birinci ve ikinci derece optimumluk koşullarını kullanarak $\mathbf{x}^\ast = [ 2.5,\quad -1.5,\quad -1 ]^\intercal$ çözümünün aşağıdaki fonksiyonun en küçük noktası olduğunu gösteriniz.
 
 $$
 \begin{aligned}

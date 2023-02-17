@@ -45,7 +45,7 @@ Bu gösterim ile sinyalin frekans davranışı incelendiğinde, örneklenen siny
 
 <blockquote>
 
-**ÖRNEK:** $x(t) = \cos(4000 \pi t)$ sinyalini $T={1}/{6000}$ örnekleme periyodu ile örnekleyiniz.
+[](#gray) $x(t) = \cos(4000 \pi t)$ sinyalini $T={1}/{6000}$ örnekleme periyodu ile örnekleyiniz.
 
 $x[n] = x(nT) = \cos(4000 \pi n T) = \cos(w_0 n)$ şeklinde yazılabilir. Bu durumda $w_0 = 4000 \pi / 6000 = 2\pi/3$, örnekleme frekansı $w_s = 2\pi / T = 12000 \pi$ olarak saplanır.
 
@@ -137,7 +137,7 @@ Yukarıda yazılan ifade $z=r e^{jw}$ yazılması durumunda farklı şekilde de 
 
 <blockquote>
 
-**ÖRNEK:** $x[n] = a^{n} u[n]$ şeklinde verilen bir sinyalin z dönüşümü nedir?
+[](#gray) $x[n] = a^{n} u[n]$ şeklinde verilen bir sinyalin z dönüşümü nedir?
 
 $$
 \begin{aligned}
@@ -153,7 +153,7 @@ Burada $\lvert a z^{-1} \lvert < 1$ koşulu ifadenin yakınsak olması için ger
 
 <blockquote>
 
-**ÖRNEK:** $X(z)=z^2\left (1-\frac{1}{2}z^{-1}\right )(1+z^{-1})(1+z^{-1})$ şeklinde verilen ifadenin ters $z$ dönüşümünü bulunuz.
+[](#gray) $X(z)=z^2\left (1-\frac{1}{2}z^{-1}\right )(1+z^{-1})(1+z^{-1})$ şeklinde verilen ifadenin ters $z$ dönüşümünü bulunuz.
 
 İfade açık biçimde yazılırsa $X(z)=z^2+\frac{3}{2}z-\frac{1}{2}z^{-1}$ elde edilir. Verilen iafede en yüksek kuvvet $2$, en düşük kuvvet $-1$ olduğundan ifade kuvvetlerin doğrudan uzamsal karşılıkları kullanılarak dönüştürülebilir.
 
@@ -187,7 +187,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** Aşağıda verilen sistem yanıtının zaman domeni gösterimini bulunuz.
+[](#gray) Aşağıda verilen sistem yanıtının zaman domeni gösterimini bulunuz.
 
 $$
 H(z) = \frac{(1+z^{-1})^2}{(1 - \frac{1}{2}z^{-1})(1 + \frac{3}{4} z^{-1})}
@@ -232,7 +232,7 @@ Verilen bir fark denklemi için ROC bölgesinin seçimine bağlı olarak farklı
 
 <blockquote>
 
-**ÖRNEK:** Giriş çıkış ilişkisi $y[n] - \frac{5}{2}y[n-1] + y[n-2] = x[n]$ ile tanımlanan sistemin ROC analizini yapalım.
+[](#gray) Giriş çıkış ilişkisi $y[n] - \frac{5}{2}y[n-1] + y[n-2] = x[n]$ ile tanımlanan sistemin ROC analizini yapalım.
 
 Fark denkleminin $z$ dönüşümü aşağıdaki şekilde yazılır.
 
@@ -309,7 +309,7 @@ Bu gruplardan ilkinde, $H(z)$ fonksiyonu en az bir tane sıfır olmayan bir **ku
 
 <blockquote>
 
-**ÖRNEK:** $y[n] + a y[n-1] = x[n]$ şeklinde verilen bir sistemin transfer fonksiyonunu sınıflandırınız.
+[](#gray) $y[n] + a y[n-1] = x[n]$ şeklinde verilen bir sistemin transfer fonksiyonunu sınıflandırınız.
 
 Verilen ifadenin $z$ dönüşümünü $Y(z) + a Y(z) z^{-1} = X(z)$ şeklinde yazılır. Bu durumda transfer fonksiyonu aşağıdaki şekilde ifade edilir.
 
@@ -325,7 +325,7 @@ IIR filtrelerin tersine, bir sistemin transfer fonksiyonu sonlu sayıda birim d�
 
 <blockquote>
 
-**ÖRNEK:** $h[n] = a^n, \quad n \in [0,M)$ şeklinde tanımlanan bir sistemin FIR olduğunu $z$ domeninde gösteriniz.
+[](#gray) $h[n] = a^n, \quad n \in [0,M)$ şeklinde tanımlanan bir sistemin FIR olduğunu $z$ domeninde gösteriniz.
 
 **FIR sistemlerin transfer fonksiyonu sıfır hariç kutup içermemelidir**. Verilen sistemin transfer fonksiyonu aşağıdaki şekilde hesaplanır.
 

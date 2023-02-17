@@ -11,13 +11,13 @@ jobs:
         run: |
           mkdir -p output
           cp -r notes/notes output/
-          cp notes/github-pandoc.css output/github-pandoc.css
+          cp notes/custom.css output/custom.css
       - uses: docker://pandoc/core:2.9
         with:
           args: >-
             --standalone
             --mathjax
-            --css=github-pandoc.css
+            --css=custom.css
             --shift-heading-level-by=1
             --metadata title="Yeterlik Çalışma Notları"
             --resource-path=notes

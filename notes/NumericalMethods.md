@@ -65,7 +65,7 @@ Hesaplama hatası sistemin yanlış modellenmesinden, veri hatası girdinin yanl
 
 <blockquote>
 
-**ÖRNEK:** Sinüs fonksiyonu sonsuz sayıda terim kullanılarak aşağıdaki şekilde yazılabilir.
+[](#gray) Sinüs fonksiyonu sonsuz sayıda terim kullanılarak aşağıdaki şekilde yazılabilir.
 
 $$
     \sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots
@@ -126,7 +126,7 @@ $$S = \lvert \frac{\Delta y / y}{\Delta x / x} \lvert = \lvert \frac{(f(x + \Del
 
 <blockquote>
 
-**ÖRNEK:** 
+[](#gray) 
 
 - $f(x) = \sqrt{x}$ şeklinde verilen bir sistemde girişte meydana gelen küçük bir değişimin çıkışta neden olacağı değişimi bulunuz.
 
@@ -160,7 +160,7 @@ Matris normlarında bazı değerler hızlı hesaplanabilir. Örnek olarak $L_1$ 
 
 <blockquote>
 
-**ÖRNEK:**
+[](#gray)
 
 $$\mathbf{A} = 
 \begin{bmatrix} 
@@ -243,7 +243,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:**
+[](#gray)
 
 $$
     \mathbf{A}=
@@ -582,7 +582,7 @@ Kritik nokta $\nabla f(x) = 0$ şartını sağlayan noktalardır. Bu noktalar He
 
 <blockquote>
 
-**ÖRNEK:** $f(x, y) = 2x^3-3x^2-6xy(x-y-1)$ ifadesinin kritik noktalarını sınıflandırın.
+[](#gray) $f(x, y) = 2x^3-3x^2-6xy(x-y-1)$ ifadesinin kritik noktalarını sınıflandırın.
 
 Verilen fonksiyonun gradyan vektörü ve Hessian matrisi aşağıdaki şekilde hesaplanır.
 
@@ -781,7 +781,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** $y' = -y^3$ olsun. $y(0) = 1$ ve $h=0.5$ için ADD çözümünü hesaplayınız.
+[](#gray) $y' = -y^3$ olsun. $y(0) = 1$ ve $h=0.5$ için ADD çözümünü hesaplayınız.
 
 Ters Euler yöntemi ile
 

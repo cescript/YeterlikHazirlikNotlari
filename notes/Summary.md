@@ -20,13 +20,19 @@ $$
 
 📌 Gerçel ve **simetrik** bir $\mathbf{A}$ matrisinin **birbirinden farklı özdeğerlere sahip tüm özvektörleri birbirine diktir**. 
 
-> ✅ $\langle \lambda_1 \lambda_2 v_1,v_2 \rangle = \langle v_1,\lambda_1 \lambda_2 v_2 \rangle \Leftrightarrow \langle \lambda_2 \mathbf{A} v_1,v_2 \rangle = \langle v_1,\lambda_1 \mathbf{A} v_2 \rangle = \langle \lambda_1 \mathbf{A}^{\intercal} v_1,v_2 \rangle$, $\mathbf{A}^\intercal = \mathbf{A}$ ve $\lambda_1 \neq \lambda_2$ olduğundan eşitlik sadece ve sadece $\langle v_1,v_2 \rangle = 0$ için geçerlidir.
-> 
+<blockquote>
+
+[](#green) ✅ $\langle \lambda_1 \lambda_2 v_1,v_2 \rangle = \langle v_1,\lambda_1 \lambda_2 v_2 \rangle \Leftrightarrow \langle \lambda_2 \mathbf{A} v_1,v_2 \rangle = \langle v_1,\lambda_1 \mathbf{A} v_2 \rangle = \langle \lambda_1 \mathbf{A}^{\intercal} v_1,v_2 \rangle$, $\mathbf{A}^\intercal = \mathbf{A}$ ve $\lambda_1 \neq \lambda_2$ olduğundan eşitlik sadece ve sadece $\langle v_1,v_2 \rangle = 0$ için geçerlidir.
+
+</blockquote>
+
 </blockquote>
 
 ⏩ Her $\mathbf{x} \in \mathbb{R}^n$ vektörü için; $\mathbf{x}^{\intercal} \mathbf{A} \mathbf{x} > 0$ şartını sağlayan matrislere **pozitif tanımlı** denir. $\mathbf{x}^{\intercal} \mathbf{A} \mathbf{x} \geq 0$ ise **pozitif yarı tanımlı**, $\mathbf{x}^{\intercal} \mathbf{A} \mathbf{x} < 0$ geçerliyse **negatif tanımlı**, $\mathbf{x}^{\intercal} \mathbf{A} \mathbf{x} \leq 0$ geçerliyse **negatif yarı tanımlı** denir. 
 
 <blockquote>
+
+[](#blue)
 
 📌 $\mathbf{e}^{\intercal} \mathbf{A} \mathbf{e}$ ile matrisin köşegenleri seçilebildiğinden, pozitif tanımlı matrislerde $\text{diag}(\mathbf{A}) > 0$, negatif tanımlı matrislerde $\text{diag}(\mathbf{A}) < 0$ olmalıdır. 
 
@@ -43,6 +49,8 @@ P(A \lvert B) = \frac{P(A \cap B)}{P(B)} = \frac{P(B \lvert A)P(A)}{P(B)}
 $$
 
 <blockquote>
+
+[](#green)
 
 📌 $A,B$ **bağımsız** olaylarsa; $P(A\cap B)=P(A)P(B)$ olacağından $P(A \lvert B) = P(A)$ olur.
 
@@ -71,6 +79,8 @@ $$
 
 <blockquote>
 
+[](#blue)
+
 📌 $C_{\mathbf{xy}} = 0$ yani $E[\mathbf{x}\mathbf{y}] = E[\mathbf{x}]E[\mathbf{y}]$ olan rastgele değişkenlere **ilişkisiz** denir.  **Bağımsız**  rastgele değişkenler için $P \lbrace x,y \rbrace  = P \lbrace x \rbrace P \lbrace y \rbrace$ olduğundan **bağımsız rastgele değişkenler ilişkisizdir**.
 
 📌 İki rastgele değişkenin **korelasyonu $E[\mathbf{x}\mathbf{y}]=0$ ise bu değişkenler ortogonaldir** veya **birbirlerine diktir** denir.
@@ -87,6 +97,8 @@ $$
 🔋 **Enerji** bir sistemin genliğininin karesel toplamını $E = \int_{t_1}^{t_2} \lvert x(t) \lvert^2 dt$ göstermektedir. ⚡ **Güç** birim zamandaki enerji olarak tanımlanır ve $P(x) = \frac{E}{t_2-t_1}$ ile hesaplanır. **Sonlu enerjili sistemlerin ortalama gücü sıfırdır**.
 
 <blockquote>
+
+[](#green)
 
 - 🤯 **Belleksiz** sistemlerde çıktı sadece o anki girdiye bağlıdır. 
 - 🧩 **Terslenebilir** sistemlerde farklı girdi farklı bir çıktıya neden olmaktadır.  
@@ -105,7 +117,11 @@ $$
 | Fourier Seri Katsayıları | $a_k = \frac{1}{T} \int_{T} x(t) e^{-jk(2\pi / T) t} dt$ | $a_k = \frac{1}{N} \sum_{n \in N} x[n] e^{-jk (2\pi / N) n}$ |
 | Zaman İşaretinin Elde Edilmesi | $x(t) = \sum_{k=-\infty}^{\infty} a_k e^{jk(2\pi / T) t}$ | $x[n] = \sum_{k \in N} a_k e^{jk (2\pi / N) n}$ |
 
-💥💥 **Mutlak toplamı sonlu** olan, **sonlu sayıda minima/maksima** içeren ve **sonlu sayıda kesikliği** olan sinyaller, periyodik olmasa dahi $T \to \infty$ varsayılarak Fourier seri katsayıları bulunabilir. Ancak $T \to \infty$ olduğundan katsayılar **sürekli** olacaktır. Bu işleme **Fourier Dönüşümü** denir.
+<blockquote>
+
+[](#blue) 💥💥 **Mutlak toplamı sonlu** olan, **sonlu sayıda minima/maksima** içeren ve **sonlu sayıda kesikliği** olan sinyaller, periyodik olmasa dahi $T \to \infty$ varsayılarak Fourier seri katsayıları bulunabilir. Ancak $T \to \infty$ olduğundan katsayılar **sürekli** olacaktır. Bu işleme **Fourier Dönüşümü** denir.
+
+</blockquote>
 
 |Aperiyodik İşaretler için Fourier Dönüşümü | Sürekli Sinyaller | Ayrık Sinyaller |
 |----|----|----|
@@ -126,7 +142,12 @@ $$
 | Nedensel | ROC $\sigma > \alpha$ şeklinde sağ taraflı olmalıdır | ROC $\lvert z \lvert = \infty$ içermelidir |
 | Kararlı ve Nedensel | Tüm kutuplar sol tarafta olmalıdır | Tüm kutuplar **birim çemberin** içerisinde olmalıdır |
 
-🚨 Dönüşüm fonksiyonu **en az bir tane**, **sadeleşme ile yok edilemeyen** kutup içermesi durumunda girdi sinyali sonsuz uzunlukta olacağından, bu sinyallere **IIR** denir. **FIR** sistemlerde ise **sıfır hariç** kutup noktası bulunmamaktadır.
+
+<blockquote>
+
+[](#green) 🚨 Dönüşüm fonksiyonu **en az bir tane**, **sadeleşme ile yok edilemeyen** kutup içermesi durumunda girdi sinyali sonsuz uzunlukta olacağından, bu sinyallere **IIR** denir. **FIR** sistemlerde ise **sıfır hariç** kutup noktası bulunmamaktadır.
+
+</blockquote>
 
 ⏩ **Örnekleme** $x_s(t) = \sum_{n=-\infty}^{\infty} x(t) \delta(t - nT_s)$ sürekli sinyalden örnekler alınması işlemidir. Bu durumda sinyalin frekans gösterimi aşağıdaki şekilde olacaktır.
 
@@ -136,11 +157,15 @@ $$
 
 🔔 Örneklenen sinyalin frekans uzayında $w_s$ ile periyodik olduğu görülür. 
 
-💊 **Bant genişliği sınırlı olan** sinyalden **sinyalin ihtiva ettiği en yüksek frekanstan daha sık** örnekler alınırsa sinyal **kayıpsız** geri çatılabilir.
+<blockquote>
+
+[](#blue) 💊 **Bant genişliği sınırlı olan** sinyalden **sinyalin ihtiva ettiği en yüksek frekanstan daha sık** örnekler alınırsa sinyal **kayıpsız** geri çatılabilir.
 
 ✅ **Nyquist-Shannon Örnekleme Teoremi:** Maksimum frekansı $w_m$ olan bir sinyalin bant genişliği $2w_m$ olacaktır. Örnekleme sonrası sinyalin girişim yaşamaması için **örnekleme frekansı $w_s > 2w_m$ seçilmelidir**. Bu durumda orjinal sinyal örneklerinden mükemmel şekilde geri çatılabilecektir.
 
 🚨🚨 Örtüşme oluşturmayacak **en düşük örnekleme frekansı** bant genişliği $B < w_m$ ile sınırlı sinyaller için daha **düşüktür**: $w_s = \frac{2 w_m}{ \lfloor w_m / B \rfloor}$
+
+</blockquote>
 
 ⏩ **Tüm Geçiren (All Pass)** sistemler **tüm frekans bileşenlerine sabit bir kazanç** uygular. $H(z)$ **transfer fonksiyonunun sıfırlarının da birim çemberin içinde** olan sistemlere **Min Faz** sistem denir. Bu sistemlerin **tersi de nedensel ve kararlıdır**.
 
@@ -172,7 +197,11 @@ $$
 
 ⏩ **Açma (Opening)** bir imgenin önce daralma, ardından **genişleme** işlemlerine tabii tutulması işlemine denir, $(A \ominus B)\oplus B$ ile gösterilir. 🟧 **Kapama (Closing)** bir imgenin önce genişleme, ardından **daralma** işlemlerine tabii tutulması işlemine denir, $(A \oplus B)\ominus B$ ile gösterilir.
 
-**Sıkıştırma** niçin yapılır? 🔸 $N_\text{renk}< 2^{24}$ olduğundan her piksel 24 bit yerine daha az bit ile ifade edilebilir 🔸 Uzamsal renk benzerliği kodlamada kullanılabilir 🔸 Algısal açıdan önemsiz noktalar daha az bitle gösterilebilir.
+<blockquote>
+
+[](#green) **Sıkıştırma** niçin yapılır? 🔸 $N_\text{renk}< 2^{24}$ olduğundan her piksel 24 bit yerine daha az bit ile ifade edilebilir 🔸 Uzamsal renk benzerliği kodlamada kullanılabilir 🔸 Algısal açıdan önemsiz noktalar daha az bitle gösterilebilir.
+
+</blockquote>
 
 📝 **Huffman kodlama** sembol başına düşen bit sayısını sembolün görülme olasılığına ters orantılı şekilde ayarlayarak sıkıştırma sağlanır. 
 
@@ -184,7 +213,11 @@ $$
 
 ⏩  Bir fonksiyonun en küçük veya en büyük değerini aldığı noktalara **ekstremum** noktalar denir. 💥 Ekstremum noktalar için $\boxed{\nabla f(\mathbf{x}^{\ast})^{\intercal} \Delta \mathbf{x} \geq 0}$ şartı sağlanmalıdır.
 
-💥💥 Bir noktanın yerel ekstremum nokta olabilmesi için $\nabla^2 f(\mathbf{x}^{\ast})$ **pozitif veya negatif yarı tanımlı** olması gereklidir. $f(\mathbf{x}^{\ast}) = 0$ şartını sağlayan ve belirsiz Hessian matrisine sahip noktalara **eğer noktası** denir.
+<blockquote>
+
+[](#blue) 💥💥 Bir noktanın yerel ekstremum nokta olabilmesi için $\nabla^2 f(\mathbf{x}^{\ast})$ **pozitif veya negatif yarı tanımlı** olması gereklidir. $f(\mathbf{x}^{\ast}) = 0$ şartını sağlayan ve belirsiz Hessian matrisine sahip noktalara **eğer noktası** denir.
+
+</blockquote>
 
 ⏩  Bir fonksiyona aşağıdaki şekilde yaklaşımda bulunabilir. Sadece gradyan kullanılarak yapılan yaklaşıma **doğrusal yaklaşım**, ikinci türevin de kullanıldığı yaklaşıma **kuadratik yaklaşım** denir.
 
@@ -197,7 +230,11 @@ $$
 
 $$\mathbf{x}_{k+1} = \mathbf{x}_k + \eta \mathbf{d}_k$$
 
-🔔🔔 Bir $\mathbf{d}$ vektörünün **iniş yönü olabilmesi** için $\boxed{\nabla f(\mathbf{x})^{\intercal} \mathbf{d} < 0}$ olmalıdır.
+<blockquote>
+
+[](#green) 🔔🔔 Bir $\mathbf{d}$ vektörünün **iniş yönü olabilmesi** için $\boxed{\nabla f(\mathbf{x})^{\intercal} \mathbf{d} < 0}$ olmalıdır.
+
+</blockquote>
 
 <blockquote>
 
@@ -251,6 +288,8 @@ Bir veri seti üzerinde $A$ olayının gözlenmesi durumunda $B$'nin ne olabilec
 
 <blockquote>
 
+[](#blue)
+
 🟢 $P(A \lvert B)$ olasılığını en büyükleyen $B$ değeri olarak veren yönteme **En Büyük Olabilirlikli Karar Verme (ML)** denir.
   
 🟡 $P(B \lvert A) \sim P(A \lvert B)P(B)$ olasılığını en büyükleyen $B$ değerine göre veren yönteme **En Büyük Artçıl Karar Verme (MAP)** adı verilir.
@@ -273,15 +312,17 @@ $$
 
 📝 **Temel Bileşen Analizi** verinin **en küçük izdüşüm hatası** ile yansıtılabileceği alt uzayı bulan bir algoritmadır. Bu dönüşüm, aynı zamanda **verinin en büyük değişintiyi** gösterdiği eksen ile aynı olmaktadır. 
 
-|💊 $\mathbf{S}$ sıfır ortalamalı verinin kovaryansı olmak üzere, temel bileşen analizi $\mathbf{S}\mathbf{p} = \lambda \mathbf{p}$ özdeğer probleminin çözümü ile bulunur.|
-|-----|
+> [](#green) 💊 $\mathbf{S}$ sıfır ortalamalı verinin kovaryansı olmak üzere, temel bileşen analizi $\mathbf{S}\mathbf{p} = \lambda \mathbf{p}$ özdeğer probleminin çözümü ile bulunur.
 
 📝 **Fisher Ayrıştırma Analizi** izdüşümün varyansı yerine, $\mathbf{S}_b{\mathbf{S}_w}^{-1}$ değerini en büyükler. $\mathbf{S}_b = \sum_i (\mu_i - \mu)$ sınıflar arası varyansı (sınıf ortalamalarının varyansı), $\mathbf{S}_w = \sum_i E[(x_i - \mu_i)^2]$ sınıfların kendi içerisindeki varyanslarının toplamını göstermektedir.
 
-|💊 Fisher Ayrıştırma vektörleri $\mathbf{S}_b\mathbf{p} = \lambda {\mathbf{S}_w}\mathbf{p}$ eşitliğinin çözülmesi ile bulunur.|
-|-----|
+> [](#green) 💊 Fisher Ayrıştırma vektörleri $\mathbf{S}_b\mathbf{p} = \lambda {\mathbf{S}_w}\mathbf{p}$ eşitliğinin çözülmesi ile bulunur.
 
-🚨🚨 Fisher ayrıştırma analizinde **sınıf ortalamaları aynı/yakın ise** $\mathbf{S}_b \approx 0$ olacağından, bulunan **sonuçlar hatalı** olacaktır.
+<blockquote>
+
+[](#red) 🚨🚨 Fisher ayrıştırma analizinde **sınıf ortalamaları aynı/yakın ise** $\mathbf{S}_b \approx 0$ olacağından, bulunan **sonuçlar hatalı** olacaktır.
+
+</blockquote>
 
 📗 **Doğrusal Ayırtaç** fonksiyonları $g(\mathbf{x}) = \mathbf{w}^{\intercal}\mathbf{x}$ şeklinde yazılabilen fonksiyonlardır. Bu fonksiyonlarda $f(\mathbf{x} \in C_1) > 0$ ve $f(\mathbf{x} \in C_2) < 0$ olması istendiğinden;   $\mathbf{x}_i = -\mathbf{x}_i,\phantom{+} \mathbf{x}_i \in C_2$ tanımı yapıldığında doğru sınıflandırılan her örnek için $g(\mathbf{x}) = \mathbf{w}^{\intercal}\mathbf{x} > 0$ olacaktır.
 
@@ -305,8 +346,11 @@ $$
 
 🔹 **Ho-Kashyap Çözümü:** Bu yaklaşım $\mathbf{w}$ değişkenine ek olarak $\mathbf{b}$ için de gradyan iniş yöntemi kullanmayı önerir. Diğer iki yöntemde $\mathbf{b}$ rastgele bir pozitif vektör seçildiğinden bu yaklaşım uzun sürede çalışmakta ancak daha iyi sonuçlar üretmektedir.
 
+<blockquote>
 
-**DİKKAT:** Bu yöntem büyük hatalara daha çok ceza yüklediğinden, aykırı değerlere daha duyarlı olmakta ve sonucu aykırı değere doğru yaklaştırmaktadır. 
+[](#blue) **En Küçük Karesel Hata** büyük hatalara daha çok ceza yüklediğinden, aykırı değerlere daha duyarlı olmakta ve sonucu aykırı değere doğru yaklaştırmaktadır.
+
+</blockquote>
 
 📙 **Destek Vektör Makineleri** sadece ayrıştırıcı **düzleme en yakın** örneklerin (destek vektörleri) mesafelerini belirli bir $\mathbf{b} = 1 / \lVert \mathbf{w} \lVert$ değerine zorlamaktadır.
 

@@ -4,7 +4,7 @@ Bu bölümde tüm derslerden hazırlanan sorular çözülecektir.
 
 <blockquote>
 
-**SORU:** Aşağıda verilen periyodik sinyallerin Fourier serisi gösterimini bulunuz.
+[](#gray) Aşağıda verilen periyodik sinyallerin Fourier serisi gösterimini bulunuz.
 
 ![](notes/fourier_1.png)
 
@@ -44,7 +44,7 @@ $$
 
 <blockquote>
 
-**SORU:** Aşağıda verilen iki sinyalin konvolüsyonunu hesaplayıp, sonuçları çiziniz.
+[](#gray) Aşağıda verilen iki sinyalin konvolüsyonunu hesaplayıp, sonuçları çiziniz.
 
 $$
 x(t)=
@@ -79,7 +79,7 @@ Verilen $x(t)$ ve bulunan sonuca ilişkin grafik aşağıdaki şekilde verilmiş
 
 <blockquote>
 
-**SORU:** Aşağıda verilen sistem için frekans ve birim dürtü yanıtını bulunuz.
+[](#gray) Aşağıda verilen sistem için frekans ve birim dürtü yanıtını bulunuz.
 
 $$
 y[n] - \frac{1}{4} y[n-1] - \frac{1}{8} y[n-2] = 3 x[n] - \frac{3}{4} x[n-1]
@@ -104,7 +104,7 @@ $$
 
 <blockquote>
 
-**SORU:** $2 y'(t) + 3 y(t) = x'(t)$ denklemi ile tanımlanan sistemin frekans ve birim dürtü yanıtını bulunuz.
+[](#gray) $2 y'(t) + 3 y(t) = x'(t)$ denklemi ile tanımlanan sistemin frekans ve birim dürtü yanıtını bulunuz.
 
 </blockquote>
 
@@ -135,7 +135,7 @@ $$
 
 <blockquote>
 
-**SORU:** Doğrusal Zamanla Değişmeyen bir sistemin girdisi $x[n]=\left (\frac{1}{2}\right )^nu[n]+2^nu[-n-1]$ iken, çıktısı $y[n]=6\left (\frac{1}{2}\right )^nu[n]-6\left (\frac{3}{4}\right )^nu[n]$ şeklinde olmaktadır.
+[](#gray) Doğrusal Zamanla Değişmeyen bir sistemin girdisi $x[n]=\left (\frac{1}{2}\right )^nu[n]+2^nu[-n-1]$ iken, çıktısı $y[n]=6\left (\frac{1}{2}\right )^nu[n]-6\left (\frac{3}{4}\right )^nu[n]$ şeklinde olmaktadır.
 
 
 - Sistem transfer fonksiyonu $H(z)$'i bulunuz. ROC, kutup ve sıfır noktalarını belirtiniz.
@@ -190,7 +190,7 @@ $\lvert z \lvert > 0.75$ sonsuzu içerdiğinden sistem **nedenseldir**. Bu durum
 
 <blockquote>
 
-**SORU:** Giriş-Çıkış ilişkisi $y[n+2]-y[n] = 3x[n+2] - x[n+1]$ ile verilen sistemin $x[n] = \delta[n-2]$ girdisine tepkisini bulunuz.
+[](#gray) Giriş-Çıkış ilişkisi $y[n+2]-y[n] = 3x[n+2] - x[n+1]$ ile verilen sistemin $x[n] = \delta[n-2]$ girdisine tepkisini bulunuz.
 
 </blockquote>
 
@@ -214,7 +214,7 @@ $$
 
 <blockquote>
 
-**SORU:** Aşağıdaki işaretlere Fourier dönüşümü uygulayarak frekans gösterimlerini bulunuz.
+[](#gray) Aşağıdaki işaretlere Fourier dönüşümü uygulayarak frekans gösterimlerini bulunuz.
 
 - $x(t)=e^{-2t} u(t-3)$
 - $x(t)=e^{-4 \lvert t \lvert}$
@@ -251,7 +251,7 @@ $$
 
 <blockquote>
 
-**SORU:** Aşağıda verilen periyodik işaretin Fourier serisi göstermini bulunuz.
+[](#gray) Aşağıda verilen periyodik işaretin Fourier serisi göstermini bulunuz.
 
 ![](notes/fourier_2.png)
 
@@ -283,7 +283,7 @@ $$
 
 <blockquote>
 
-**SORU:** ) Birim basamak tepkisi aşağıdaki $y[n]$ sinyali olan doğrusal
+[](#gray) Birim basamak tepkisi aşağıdaki $y[n]$ sinyali olan doğrusal
 zamanla değişmez bir sistemin girişine de $x[n] = y[n]$ sinyali
 uygulanırsa çıkışı ne olur?
 
@@ -312,7 +312,7 @@ $$
 
 <blockquote>
 
-**SORU:** $x[n] = 4 (-0.3)^{-n}u[-n]$ ifadesinin $z$ dönüşümünü bulunuz.
+[](#gray) $x[n] = 4 (-0.3)^{-n}u[-n]$ ifadesinin $z$ dönüşümünü bulunuz.
 
 </blockquote>
 
@@ -329,7 +329,7 @@ $$
 
 <blockquote>
 
-**SORU:** $x''(t)+7x'(t)+12x(t) = 0$ ile verilen diferansiyel denklemin çözümünü $x(0)=2$ ve $x'(0)=-4$ ilk koşulları altında çözünüz. 
+[](#gray) $x''(t)+7x'(t)+12x(t) = 0$ ile verilen diferansiyel denklemin çözümünü $x(0)=2$ ve $x'(0)=-4$ ilk koşulları altında çözünüz. 
 
 </blockquote>
 
@@ -349,7 +349,7 @@ Bulunan ifadenin ters Laplace dönüşümü $x(t) = 4 e^{-3t}u(t) - 2e^{-4t}u(t)
 
 <blockquote>
 
-**SORU:** Bir sentetik kumaşın dayanıklılığı $\mathbf{x}\sim \mathcal{N}(600,64)$ ile modellenmektedir. Bu kumaşın yüzde kaçı $600 \pm 18$ basınca dayanabilir.
+[](#gray) Bir sentetik kumaşın dayanıklılığı $\mathbf{x}\sim \mathcal{N}(600,64)$ ile modellenmektedir. Bu kumaşın yüzde kaçı $600 \pm 18$ basınca dayanabilir.
 
 </blockquote>
 
@@ -372,7 +372,7 @@ $$
 
 <blockquote>
 
-**SORU:** $x_i \in  \lbrace 0.5, 2 \rbrace$ kümesinden, düzgün dağılımla rastgele değerler alan bir rastgele değişken olsun. $\mathbf{x} = \prod_{i=1}^n x_i$ ile tanımlanan rastgele değişken için $x_i$ değişkenlerinin bağımsız olduğu bilgisini kullanarak aşağıdaki soruları cevaplayınız.
+[](#gray) $x_i \in  \lbrace 0.5, 2 \rbrace$ kümesinden, düzgün dağılımla rastgele değerler alan bir rastgele değişken olsun. $\mathbf{x} = \prod_{i=1}^n x_i$ ile tanımlanan rastgele değişken için $x_i$ değişkenlerinin bağımsız olduğu bilgisini kullanarak aşağıdaki soruları cevaplayınız.
 
 - $\mathbf{x}$'in beklenen değeri nedir?
 - $n=100$ olması durumunda $P \lbrace \mathbf{x} > 1000 \rbrace$ olasılığını hesaplayınız.
@@ -390,7 +390,7 @@ Elde edilen binom dağılımın standart sapması $\sqrt{npq} = \sqrt{1000 \cdot
 
 <blockquote>
 
-**SORU:** Bir web sayfasının ortalama tıklanma sayısı $\lambda=2$ olan bir Poisson dağılım ile modellenebilmektedir. Bu sitede bir saniyelik sürede ikiden daha fazla tıklanma olmamama olasılığı nedir?
+[](#gray) Bir web sayfasının ortalama tıklanma sayısı $\lambda=2$ olan bir Poisson dağılım ile modellenebilmektedir. Bu sitede bir saniyelik sürede ikiden daha fazla tıklanma olmamama olasılığı nedir?
 
 </blockquote>
 
@@ -404,7 +404,7 @@ $$
 
 <blockquote>
 
-**SORU:** Saat 06:00 da göreve başlayan bir metro istasyona her 15 dakikada bir gelmektedir. Saat 7:10 ile 7:30 saatleri arasında düzgün dağılımlı olarak istasyona gelen birinin treni bekleme süresine ait olasılık yoğunluk fonksiyonunu ve ortalama bekleme süresini bulunuz.
+[](#gray) Saat 06:00 da göreve başlayan bir metro istasyona her 15 dakikada bir gelmektedir. Saat 7:10 ile 7:30 saatleri arasında düzgün dağılımlı olarak istasyona gelen birinin treni bekleme süresine ait olasılık yoğunluk fonksiyonunu ve ortalama bekleme süresini bulunuz.
 
 </blockquote>
 
@@ -434,7 +434,7 @@ $$
 
 <blockquote>
 
-**SORU:** $\mathbf{y}=\mathbf{x}^2, \mathbf{x} \sim U(-1,1)$ şeklinde tanımlanan bir rastgele değişkenin olasılık yoğunluk fonksiyonunu bulunuz.
+[](#gray) $\mathbf{y}=\mathbf{x}^2, \mathbf{x} \sim U(-1,1)$ şeklinde tanımlanan bir rastgele değişkenin olasılık yoğunluk fonksiyonunu bulunuz.
 
 </blockquote>
 
@@ -462,7 +462,7 @@ $$
 
 <blockquote>
 
-**SORU:** $X,Y,Z$ sırasıyla $\lambda_x=1, \lambda_y=2,\lambda_z=3$ parametreleri ile Poisson dağılımlı bağımsız değişkenlerdir.
+[](#gray) $X,Y,Z$ sırasıyla $\lambda_x=1, \lambda_y=2,\lambda_z=3$ parametreleri ile Poisson dağılımlı bağımsız değişkenlerdir.
 
 - $P \lbrace X+Y+Z = 8 \rbrace$ olasılığını bulunuz.
 - $C(X+2Y, 2Y+3Z)$ kovaryansını hesaplayınız.

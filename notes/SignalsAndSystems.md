@@ -78,7 +78,7 @@ Tablodan görüleceği üzere;
 
 <blockquote>
 
-**ÖRNEK:** $x[n] = \cos(\frac{1}{4}n)$ işareti periyodik midir?
+[](#gray) $x[n] = \cos(\frac{1}{4}n)$ işareti periyodik midir?
 
 $x[n]$ işaretinin periyodik olabilmesi için $x[n] = x[n + N]$ şeklinde yazılabilmelidir. Bu durumda $x[n] = \cos(\frac{1}{4}n + \frac{N}{4})$ olur. $\cos$ sinyali $2\pi$ ile periyodik olduğundan; $\frac{N}{4} = 2\pi k \to N = 8\pi k$ olmalıdır. **Ayrık sinyaller için periyodun da tamsayı olması gerektiğinden sinyal periyodik değildir.**
 
@@ -230,7 +230,7 @@ Ayrık Zamanlı Periyodik Sinyalin Fourier Serisi Gösterimi aynı zamanda Ayrı
 
 <blockquote>
 
-**ÖRNEK:** Aşağıda verilen ayrık zamanlı $x[n]$ sinyali için Fourier seri katsayılarını bulunuz. 
+[](#gray) Aşağıda verilen ayrık zamanlı $x[n]$ sinyali için Fourier seri katsayılarını bulunuz. 
 
 $$
 x[n]=1+\sin\left (\frac{2\pi}{N}\right )n+3\cos\left (\frac{2\pi}{N}\right )n+\cos\left (\frac{4\pi}{N}n+\frac{\pi}{2}\right )
@@ -299,7 +299,7 @@ $$
 
 <blockquote>
 
-**ÖRNEK:** Kare Dalganın Fourier Dönüşümü
+[](#gray) Kare Dalganın Fourier Dönüşümü
 
 $$
 x(t) =
@@ -352,7 +352,7 @@ Burada elde edilen ifade sürekli bir fonksiyondur ve $w=2\pi$ ile periyodiktir.
 
 <blockquote>
 
-**ÖRNEK:** $x[n] = 1$ sinyalinin ayrık zamanlı Fourier dönüşümünü bulunuz.
+[](#gray) $x[n] = 1$ sinyalinin ayrık zamanlı Fourier dönüşümünü bulunuz.
 
 Verilen ifade ne mutlak anlamda ne de karesel anlamda toplanabilir değildir. Yine de hesaplama amacıyla ifadenin Fourier dönüşümü aşağıdaki şekilde yazılabilir. 
 
@@ -401,7 +401,7 @@ Yukarıda yazılan ifade $s=\sigma + jw$ yazılması durumunda farklı şekilde 
 
 <blockquote>
 
-**ÖRNEK:** $x(t) = e^{-at} u(t)$ şeklinde verilen bir sinyalin Laplace dönüşümü nedir?
+[](#gray) $x(t) = e^{-at} u(t)$ şeklinde verilen bir sinyalin Laplace dönüşümü nedir?
 
 $$
 \begin{aligned}
@@ -453,7 +453,7 @@ Ancak ROC paralel kontur bölgeleri içerdiğinden bu integrali almak kolay değ
 
 <blockquote>
 
-**ÖRNEK:** $X(s) = \frac{1}{(s+1)(s+2)},\quad s > -1$ ise $x(t)$ ifadesini bulunuz.
+[](#gray) $X(s) = \frac{1}{(s+1)(s+2)},\quad s > -1$ ise $x(t)$ ifadesini bulunuz.
 
 Verilen polinom aşağıdaki iki polinomun toplamı şeklinde yazılabilir.
 
