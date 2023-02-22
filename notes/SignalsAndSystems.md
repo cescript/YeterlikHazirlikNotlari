@@ -399,7 +399,7 @@ Yukarıda yazılan ifade $s=\sigma + jw$ yazılması durumunda farklı şekilde 
 
 <blockquote>
 
-[](#green) **Dikkat:** Dirichlet koşullarından bilindiği üzere dönüşüm işleminin geçerli olabilmesi için girdi sinyalinin ortalama gücünün sabit olması gereklidir. Yukarıdan görüldüğü üzere sinyal exponansiyel bir sinyal ile çarpıldığından bu durum geçerli olmayabilir. Bu nedenle Laplace dönüşümlerinde dönüşümün geçerli olduğu ROC (Region of Convergence) bölgesi de verilmelidir.
+[](#green) **DİKKAT:** Dirichlet koşullarından bilindiği üzere dönüşüm işleminin geçerli olabilmesi için girdi sinyalinin ortalama gücünün sabit olması gereklidir. Yukarıdan görüldüğü üzere sinyal exponansiyel bir sinyal ile çarpıldığından bu durum geçerli olmayabilir. Bu nedenle Laplace dönüşümlerinde dönüşümün geçerli olduğu ROC (Region of Convergence) bölgesi de verilmelidir.
 
 </blockquote>
 
