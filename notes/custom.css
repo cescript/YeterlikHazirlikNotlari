@@ -127,7 +127,7 @@ blockquote img {
 }
 
 /* blockquotes which has gray, red, green and red items */
-blockquote a[href*="#gray"], a[href*="#red"], a[href*="#green"], a[href*="#blue"] {
+blockquote a[href*="#gray"], blockquote a[href*="#red"], blockquote a[href*="#green"], blockquote a[href*="#blue"] {
     cursor: default;
     pointer-events: none;
     text-decoration: none;
