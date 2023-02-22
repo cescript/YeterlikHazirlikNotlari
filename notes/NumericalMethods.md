@@ -252,14 +252,15 @@ $$
         1 & 1
     \end{bmatrix}
 $$
+
 - $\mathbf{A}$ matrisinin karakteristik polinomunu bulunuz.
 
-Bir matrisin karakteristik denklemi $det(\mathbf{A} - \lambda I) = 0$ ile tanımlanır. Bu durumda verilen matris için karakteristik denklem;
+Bir matrisin karakteristik denklemi $\text{det}(\mathbf{A} - \lambda I) = 0$ ile tanımlanır. Bu durumda verilen matris için karakteristik denklem;
 
 $$
     \begin{aligned}
-    det(\mathbf{A} - \lambda I) &= 0\\
-    det\left(  
+    \text{det}(\mathbf{A} - \lambda I) &= 0\\
+    \text{det}\left(  
     \begin{bmatrix}
         1 & 4\\
         1 & 1
@@ -270,7 +271,7 @@ $$
         0 & 1
     \end{bmatrix}  
     \right) &= 0\\
-    det\left(  
+    \text{det}\left(  
     \begin{bmatrix}
         1 - \lambda & 4\\
         1 & 1 - \lambda
